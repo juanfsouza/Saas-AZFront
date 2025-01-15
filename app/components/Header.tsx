@@ -24,10 +24,10 @@ export default function Header() {
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-cover bg-center shadow-md"
-          : "bg-neutral-900 bg-transparent"
+          : "bg-transparent"
       }`}
       style={{
-        backgroundImage: isScrolled ? "url('/mod-img-14.jpg')" : "bg-transparent",
+        backgroundImage: isScrolled ? "url('/mod-img-14.jpg')" : "none",
       }}
     >
       <div className="container mx-auto flex justify-between items-center p-6">
